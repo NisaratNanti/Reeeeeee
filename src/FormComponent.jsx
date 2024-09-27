@@ -7,6 +7,7 @@ import { Field, Label, Switch } from '@headlessui/react'
 
 export default function FormComponent() {
   const [agreed, setAgreed] = useState(false)
+  
 
   return (
     <>
@@ -166,8 +167,8 @@ export default function FormComponent() {
         </div>
       </form>
     </div> 
-          
-    
       </>
   )
 }
+
+
